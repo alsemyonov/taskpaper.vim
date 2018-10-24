@@ -14,7 +14,7 @@ From the TaskPaper website (<http://hogbaysoftware.com/projects/taskpaper>):
 
 "TaskPaper is a simple to-do list application that helps you stay
 organized. Unlike competing applications, TaskPaper is based on plain text
-files which offer you paper-like simplicity and ease of use." 
+files which offer you paper-like simplicity and ease of use."
 
 TaskPaper is a to-do list application for Mac OS X based on the "Getting
 Things Done" approach of David Allen (<http://www.davidco.com/>). It supports
@@ -41,7 +41,7 @@ It contains the following files:
     ftplugin/taskpaper.vim
     syntax/taskpaper.vim
 
-To access this help file from within Vim you must first update your help 
+To access this help file from within Vim you must first update your help
 tags:
 
     :helptags ~/.vim/doc
@@ -81,21 +81,21 @@ commands (e.g. Ctrl-X Ctrl-N).
 *taskpaper-mappings*
 The plugin defines some new mappings:
 
-    \td     Mark task as done
-    \tx     Mark task as cancelled
-    \tt     Mark task as today
-    \tD     Archive @done items
-    \tX     Show tasks marked as cancelled
-    \tT     Show tasks marked as today
-    \t/     Search for items including keyword
-    \ts     Search for items including tag
-    \tp     Fold all projects
-    \t.     Fold all notes
-    \tP     Focus on the current project
-    \tj     Go to next project
-    \tk     Go to previous project
-    \tg     Go to specified project
-    \tm     Move task to specified project
+    ,td     Mark task as done
+    ,tx     Mark task as cancelled
+    ,tt     Mark task as today
+    ,tD     Archive @done items
+    ,tX     Show tasks marked as cancelled
+    ,tT     Show tasks marked as today
+    ,t/     Search for items including keyword
+    ,ts     Search for items including tag
+    ,tp     Fold all projects
+    ,t.     Fold all notes
+    ,tP     Focus on the current project
+    ,tj     Go to next project
+    ,tk     Go to previous project
+    ,tg     Go to specified project
+    ,tm     Move task to specified project
 
 Note: if `<Leader>` has been changed (e.g. `:let mapleader=",,"`)
 then its value should be used instead of `\` in the mappings.
@@ -261,15 +261,15 @@ or patches to improve TaskPaper.vim:
 
  * Alexander Wodniok
    - hint to allow this file to be used as a help file
- * Ben Armstron 
+ * Ben Armstron
    - various fixes that make the scripts more robust
    - fix to show only complete tag matches
    - include `_` in contexts
- * Huahai Yang 
+ * Huahai Yang
    - fixed handling of indented tasks
  * Steve Audette
    - suggested change to folding
- * Andreas Kühntopf 
+ * Andreas Kühntopf
    - display non-tasks as comments
  * Julien Blanchard (https://github.com/julienXX)
    - added ToggleCancelled
@@ -284,7 +284,7 @@ or patches to improve TaskPaper.vim:
    - Optional (date) syntax for @done tasks
    - Add Tag command for add/removing tag
    - Fix lagging space after removing a tag
-   - Better syntax 
+   - Better syntax
  * Anyakichi (https://github.com/anyakichi)
    - Add useful functions for users to define his own mappings easily
     - Add, delete, toggle, and update tags
